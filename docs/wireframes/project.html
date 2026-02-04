@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Overview - SEO Audit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <h2>SEO Audit</h2>
+        <nav class="nav">
+          <a href="dashboard.html">Dashboard</a>
+          <a class="active" href="project.html">Projects</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+      <div class="content">
+        <header class="topbar">
+          <div>
+            <strong>Project Overview</strong>
+            <div class="muted">Acme Marketing • https://acme.com</div>
+          </div>
+          <div class="badge">User • Logout</div>
+        </header>
+        <main class="page">
+          <div class="card" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <h3>Latest audit</h3>
+              <div class="muted">No scans yet. Run your first audit.</div>
+            </div>
+            <button class="button primary disabled">Run Audit</button>
+          </div>
+
+          <div class="grid two">
+            <div class="card">
+              <h3>Health score</h3>
+              <div class="muted">Score appears after the first scan.</div>
+            </div>
+            <div class="card">
+              <h3>Issues summary</h3>
+              <div class="muted">Errors, warnings, notices will appear here.</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Pages</h3>
+            <div class="muted">Page-level breakdown appears here after a scan.</div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

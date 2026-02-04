@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Project - SEO Audit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <h2>SEO Audit</h2>
+        <nav class="nav">
+          <a href="dashboard.html">Dashboard</a>
+          <a class="active" href="add-project.html">Projects</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+      <div class="content">
+        <header class="topbar">
+          <div>
+            <strong>Add project</strong>
+            <div class="muted">Create a new website audit.</div>
+          </div>
+          <div class="badge">User • Logout</div>
+        </header>
+        <main class="page">
+          <div class="card" style="max-width: 520px;">
+            <h3>Project details</h3>
+            <label>
+              Project name
+              <input class="input" type="text" placeholder="e.g. Acme Marketing" />
+            </label>
+            <label>
+              Website URL
+              <input class="input" type="url" placeholder="https://acme.com" />
+            </label>
+            <div style="display: flex; gap: 12px;">
+              <a class="button" href="dashboard.html">Cancel</a>
+              <button class="button primary">Create project</button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
